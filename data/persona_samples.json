@@ -1,0 +1,276 @@
+{
+  "personas": [
+    {
+      "name": "Eco-Conscious Millennial",
+      "age_range": "25-35",
+      "income_level": "medium",
+      "shopping_frequency": "weekly",
+      "typical_budget": "$150-250",
+      "characteristics": [
+        "Values sustainability and environmental impact",
+        "Prefers organic and locally sourced products",
+        "Willing to pay premium for eco-friendly options",
+        "Uses reusable bags and containers",
+        "Researches products before purchasing"
+      ],
+      "shopping_behavior": {
+        "path_style": "purposeful",
+        "dwell_time_multiplier": 1.3,
+        "budget_sensitivity": 2,
+        "preferred_sections": ["Eco", "Produce", "Dairy", "Bakery"],
+        "avoided_sections": ["Frozen", "Electronics", "Premium"],
+        "typical_purchases": [
+          "Organic fruits and vegetables",
+          "Plant-based milk alternatives",
+          "Eco-friendly cleaning products",
+          "Reusable water bottles",
+          "Sustainable household items"
+        ]
+      },
+      "sample_journey": {
+        "path": ["Entrance", "Eco", "Produce", "Dairy", "Bakery", "Checkout"],
+        "dwell_time": {
+          "Entrance": 1,
+          "Eco": 12,
+          "Produce": 10,
+          "Dairy": 6,
+          "Bakery": 7,
+          "Checkout": 3
+        },
+        "skipped": ["Electronics", "Clothing", "Home", "Meat", "Frozen", "Pantry", "Beverages", "Snacks", "Pharmacy", "Premium"]
+      }
+    },
+    {
+      "name": "Budget Shopper",
+      "age_range": "35-55",
+      "income_level": "low-medium",
+      "shopping_frequency": "bi-weekly",
+      "typical_budget": "$80-150",
+      "characteristics": [
+        "Price-conscious and value-focused",
+        "Uses coupons and looks for deals",
+        "Buys in bulk when possible",
+        "Compares prices across stores",
+        "Sticks to shopping lists"
+      ],
+      "shopping_behavior": {
+        "path_style": "efficient",
+        "dwell_time_multiplier": 1.5,
+        "budget_sensitivity": 1,
+        "preferred_sections": ["Pantry", "Dairy", "Produce", "Bakery"],
+        "avoided_sections": ["Premium", "Electronics", "Clothing"],
+        "typical_purchases": [
+          "Store brand products",
+          "Bulk items",
+          "Sale items",
+          "Basic staples",
+          "Generic medications"
+        ]
+      },
+      "sample_journey": {
+        "path": ["Entrance", "Pantry", "Dairy", "Produce", "Bakery", "Checkout"],
+        "dwell_time": {
+          "Entrance": 1,
+          "Pantry": 10,
+          "Dairy": 8,
+          "Produce": 12,
+          "Bakery": 8,
+          "Checkout": 3
+        },
+        "skipped": ["Electronics", "Clothing", "Home", "Meat", "Frozen", "Beverages", "Snacks", "Pharmacy", "Eco", "Premium"]
+      }
+    },
+    {
+      "name": "Convenience Seeker",
+      "age_range": "20-40",
+      "income_level": "medium-high",
+      "shopping_frequency": "multiple times per week",
+      "typical_budget": "$50-100",
+      "characteristics": [
+        "Values time over money",
+        "Prefers ready-to-eat and prepared foods",
+        "Uses self-checkout when available",
+        "Shops for immediate needs",
+        "Likes grab-and-go options"
+      ],
+      "shopping_behavior": {
+        "path_style": "quick",
+        "dwell_time_multiplier": 0.7,
+        "budget_sensitivity": 4,
+        "preferred_sections": ["Snacks", "Beverages", "Frozen", "Checkout"],
+        "avoided_sections": ["Clothing", "Home", "Electronics"],
+        "typical_purchases": [
+          "Pre-made meals",
+          "Energy drinks and snacks",
+          "Frozen dinners",
+          "Quick breakfast items",
+          "Ready-to-eat salads"
+        ]
+      },
+      "sample_journey": {
+        "path": ["Entrance", "Snacks", "Beverages", "Frozen", "Checkout"],
+        "dwell_time": {
+          "Entrance": 1,
+          "Snacks": 3,
+          "Beverages": 2,
+          "Frozen": 3,
+          "Checkout": 2
+        },
+        "skipped": ["Electronics", "Clothing", "Home", "Produce", "Dairy", "Meat", "Pantry", "Bakery", "Pharmacy", "Eco", "Premium"]
+      }
+    },
+    {
+      "name": "Health Enthusiast",
+      "age_range": "30-50",
+      "income_level": "medium-high",
+      "shopping_frequency": "weekly",
+      "typical_budget": "$200-350",
+      "characteristics": [
+        "Focused on nutrition and wellness",
+        "Reads ingredient labels carefully",
+        "Prefers natural and organic products",
+        "Follows specific diets (keto, vegan, etc.)",
+        "Values quality over quantity"
+      ],
+      "shopping_behavior": {
+        "path_style": "thorough",
+        "dwell_time_multiplier": 1.4,
+        "budget_sensitivity": 3,
+        "preferred_sections": ["Produce", "Dairy", "Pharmacy", "Eco"],
+        "avoided_sections": ["Snacks", "Frozen", "Beverages"],
+        "typical_purchases": [
+          "Organic produce",
+          "Grass-fed meat",
+          "Supplements and vitamins",
+          "Natural personal care products",
+          "Gluten-free alternatives"
+        ]
+      },
+      "sample_journey": {
+        "path": ["Entrance", "Produce", "Dairy", "Pharmacy", "Eco", "Checkout"],
+        "dwell_time": {
+          "Entrance": 1,
+          "Produce": 11,
+          "Dairy": 7,
+          "Pharmacy": 11,
+          "Eco": 13,
+          "Checkout": 3
+        },
+        "skipped": ["Electronics", "Clothing", "Home", "Meat", "Frozen", "Pantry", "Beverages", "Snacks", "Bakery", "Premium"]
+      }
+    },
+    {
+      "name": "Family Planner",
+      "age_range": "30-45",
+      "income_level": "medium",
+      "shopping_frequency": "weekly",
+      "typical_budget": "$200-300",
+      "characteristics": [
+        "Shops for family needs",
+        "Plans meals in advance",
+        "Buys in larger quantities",
+        "Considers children's preferences",
+        "Balances nutrition and budget"
+      ],
+      "shopping_behavior": {
+        "path_style": "comprehensive",
+        "dwell_time_multiplier": 1.2,
+        "budget_sensitivity": 2,
+        "preferred_sections": ["Produce", "Dairy", "Meat", "Pantry", "Bakery"],
+        "avoided_sections": ["Electronics", "Clothing"],
+        "typical_purchases": [
+          "Family-size packages",
+          "Kid-friendly snacks",
+          "Meal ingredients",
+          "Household essentials",
+          "School supplies"
+        ]
+      },
+      "sample_journey": {
+        "path": ["Entrance", "Produce", "Dairy", "Meat", "Pantry", "Bakery", "Snacks", "Checkout"],
+        "dwell_time": {
+          "Entrance": 1,
+          "Produce": 10,
+          "Dairy": 6,
+          "Meat": 7,
+          "Pantry": 8,
+          "Bakery": 6,
+          "Snacks": 5,
+          "Checkout": 4
+        },
+        "skipped": ["Electronics", "Clothing", "Home", "Frozen", "Beverages", "Pharmacy", "Eco", "Premium"]
+      }
+    },
+    {
+      "name": "Impulse Buyer",
+      "age_range": "18-35",
+      "income_level": "variable",
+      "shopping_frequency": "irregular",
+      "typical_budget": "$100-200",
+      "characteristics": [
+        "Makes spontaneous purchases",
+        "Influenced by displays and promotions",
+        "Enjoys browsing and discovery",
+        "Less likely to stick to lists",
+        "Values entertainment while shopping"
+      ],
+      "shopping_behavior": {
+        "path_style": "wandering",
+        "dwell_time_multiplier": 0.9,
+        "budget_sensitivity": 5,
+        "preferred_sections": ["Snacks", "Beverages", "Electronics", "Clothing"],
+        "avoided_sections": ["Pharmacy", "Eco"],
+        "typical_purchases": [
+          "Trendy snacks and drinks",
+          "Electronics accessories",
+          "Fashion items",
+          "Novelty products",
+          "Limited edition items"
+        ]
+      },
+      "sample_journey": {
+        "path": ["Entrance", "Electronics", "Clothing", "Snacks", "Beverages", "Home", "Checkout"],
+        "dwell_time": {
+          "Entrance": 1,
+          "Electronics": 11,
+          "Clothing": 14,
+          "Snacks": 4,
+          "Beverages": 3,
+          "Home": 9,
+          "Checkout": 3
+        },
+        "skipped": ["Produce", "Dairy", "Meat", "Frozen", "Pantry", "Bakery", "Pharmacy", "Eco", "Premium"]
+      }
+    }
+  ],
+  "behavioral_patterns": {
+    "time_of_day_effects": {
+      "morning": {
+        "personas": ["Health Enthusiast", "Family Planner"],
+        "behavior": "More focused, longer dwell times"
+      },
+      "afternoon": {
+        "personas": ["Convenience Seeker", "Impulse Buyer"],
+        "behavior": "Quick visits, impulse purchases"
+      },
+      "evening": {
+        "personas": ["Budget Shopper", "Eco-Conscious Millennial"],
+        "behavior": "Leisurely browsing, price comparison"
+      }
+    },
+    "seasonal_variations": {
+      "holiday_season": {
+        "increased_sections": ["Electronics", "Clothing", "Home"],
+        "behavior": "Higher budgets, more sections visited"
+      },
+      "summer": {
+        "increased_sections": ["Beverages", "Frozen", "Produce"],
+        "behavior": "Focus on refreshments and fresh foods"
+      },
+      "back_to_school": {
+        "increased_sections": ["Electronics", "Clothing", "Pantry"],
+        "behavior": "Family shopping, bulk purchases"
+      }
+    }
+  }
+} 
